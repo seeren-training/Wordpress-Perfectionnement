@@ -71,7 +71,7 @@ composer
 
 Pour créer un projet il suffit de demander la création via le dépot officiel de wordpress.
 
-[Wordpress](https://packagist.org/packages/johnpbloch/wordpress)
+[Wordpress Packagist](https://packagist.org/packages/johnpbloch/wordpress)
 
 ```bash
 composer create-project johnpbloch/wordpress name-to-customize
@@ -101,4 +101,4 @@ Lanciez votre projet dans le navigateur en exécutant votre serveur web ou en ut
 
 ___
 
-Nous remarquons qu'avec `PHP` et le package manager `Composer` il est possible de lancer un projet wordpress en deux instructions. Autour de cet écossytème il existe de nombreux outils permettant de gérer les thèmes et plugins du projet en utilisant composer.
+> Nous remarquons qu'avec `PHP` et le package manager `Composer` il est possible de lancer un projet wordpress en deux instructions. Autour de cet écosystème il existe de nombreux outils permettant de gérer les thèmes et plugins du projet en utilisant composer.
