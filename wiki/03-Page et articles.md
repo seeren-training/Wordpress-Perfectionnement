@@ -10,6 +10,8 @@ ___
 
 > Les modèles de page sont un type spécifique de fichier modèle qui peut être appliqué à une page spécifique ou à des groupes de pages.
 
+![image](./resources/page-article.png)
+
 Les modèles de page sont utilisés pour modifier l'apparence d'une page.
 
 * Un modèle de page peut être appliqué à une seule page, une section de page ou une classe de pages.
@@ -88,8 +90,6 @@ Par défaut, WordPress affiche une liste de publications sur la page d'accueil d
 
 Vous pouvez choisir une page ou un article et allez actionner le fichier `page.php` ou `archive.php`.
 
-Vous avez la possibilitée d'utiliser une page spécifique pour la page statique. Si vous créez le fichier `front-page.php`, il sera utilisé si ce réglage est activé quelque soit le choix précédent.
+Vous pouvez tout de même avoir un fichier spécifique pour la page d'accueil en créant le fichier `home.php` ou `front-page.php`. Si vous créez le fichier `front-page.php`, il sera utilisé si ce réglage est activé quelque soit le choix précédent.
 
 [Front Page](https://bom.ciens.ucv.ve/dataset/data/20140924151121/#Creating_a_Static_Front_Page)
-
-Si vous n'avez pas choisis ce réglage, vous pouvez tout de même avoir un fichier spécifique pour la page d'accueil en créant le fichier `home.php`.
