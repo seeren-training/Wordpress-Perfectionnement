@@ -72,7 +72,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Rédigez un article au nom de John Doe et créez un modèle spécifique pour une page auteur dont le nom est John Doe.
+Créez des fichiers distincts pour les pages, articles, auteurs et accueil.
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Installez le thème `Hestia` et ajoutez une classe sur la balise contenant le logo.
+Ajoutez une classe sur la balise contenant le logo.
 
 ___
 

@@ -48,7 +48,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Créez un modèle de page pour une page au choix et reconstituez la structure html de page.php
+Créez un modèle de page à appliquer sur une page au choix et reconstituez son contenu.
 
 ___
 

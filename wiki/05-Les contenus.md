@@ -48,6 +48,11 @@ Il est possible d'utiliser hierarchie wordpress pour créer un fichier de tempal
 
 [Working this custom post type](https://developer.wordpress.org/plugins/post-types/working-with-custom-post-types/)
 
+Attention, à la mise en place vous devez exécuter la fonction suivante une fois. Inscrivez la en haut du fichier `functions.php` pour suprimez la.
+
+```php
+flush_rewrite_rules();
+```
 ___
 
 👨🏻‍💻 Manipulation
