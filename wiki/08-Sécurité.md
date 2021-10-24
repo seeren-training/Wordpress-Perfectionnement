@@ -68,10 +68,10 @@ ___
 
 ## 📑 Les extensions
 
-Concernant la sécurité il existe de nombreuses extensions.
+> Concernant la sécurité il existe de nombreuses extensions.
+
+Il faut régulièrement observer la liste des meilleurs extension car le classement évolue en fonction de l'apparition de nouvelles failles et les extensions qui les prennent en compte
 
 [Protect WP Admin](https://fr.wordpress.org/plugins/protect-wp-admin/)
 
 [I Theme Security](https://wordpress.org/plugins/better-wp-security/)
-
-Il faut régulièrement observer la liste des meilleurs extension car le classement évolue en fonction de l'apparition de nouvelles failles et les extensions qui les prennent en compte
