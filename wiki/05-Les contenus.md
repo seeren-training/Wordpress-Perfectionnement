@@ -42,7 +42,7 @@ function create_product_post_type()
 
 ### 🏷️ **Affichage**
 
-Il est possible d'utiliser hierarchie wordpress pour créer un fichier de tempalte personnalisé afin de ne pas utiliser celui des articles et des pages qui serait `archive.php`. Il suffit de créer un fichier qui possède le nom de type.
+Il est possible d'utiliser hierarchie wordpress pour créer un fichier de template personnalisé afin de ne pas utiliser celui des articles et des pages qui serait `archive.php`. Il suffit de créer un fichier qui possède le nom de type.
 
 > Il est évidement possible de personnaliser l'extraction d'un type particulier.
 
@@ -110,7 +110,7 @@ Le second argument de `register_taxonomy` correspond à un tableau des types aux
 
 ### 🏷️ **Affichage**
 
-Il existe plusieurs fonctions pour afficher ou récupérer les valeurs d'une taxonomie personnalsiée.
+Il existe plusieurs fonctions pour afficher ou récupérer les valeurs d'une taxonomie personnalisée.
 
 La fonction get_the_term_list permet l'affichage avec un séparateur des taxonomies en fonction de l'identifiant d'un post. Il faut être dans le contexte de la boucle pour avoir à disposition l'identifiant du post.
 
@@ -122,7 +122,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Créez une nouvelle taxonomie dans votre thème enfant pour le type personnalisé créé précédement
+Créez une nouvelle taxonomie dans votre thème enfant pour le type personnalisé créé précédemment
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Créez une nouvelle meta box dans votre thème enfant pour le type personnalisé créé précédement
+Créez une nouvelle meta box dans votre thème enfant pour le type personnalisé créé précédemment
 
 ___
 
@@ -223,13 +223,13 @@ Il existe quelques shortcode par défaut:
 
 [Shortcode](https://codex.wordpress.org/Shortcode)
 
-Par exemple si vous relevez l'id de quelques images vous pouvez facilement obtenir une gallerie d'image.
+Par exemple si vous relevez l'id de quelques images vous pouvez facilement obtenir une galerie d'image.
 
 ```html
 [gallery ids="1, 2, 3"]
 ```
 
-Ils disparaissent peut à peut grace à l'éditeur de bloc qui permet de mieux maitriser l'apparance visuelle du contenu.
+Ils disparaissent peut à peut grâce à l'éditeur de bloc qui permet de mieux maitriser l’apparence visuelle du contenu.
 
 Vous pouvez également les utiliser dans vos templates.
 

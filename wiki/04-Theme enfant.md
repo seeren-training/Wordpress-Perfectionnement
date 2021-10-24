@@ -25,7 +25,7 @@ Un thème enfant est composé d'au moins un répertoire (le répertoire du thèm
 
 ### 🏷️ **Le répertoire**
 
-Par convention il faut créer un repertoire qui possède comme préfix le nom du thème parent puis le `-` comem séparateur suivit de child. Exemple twentyfifteen-child.
+Par convention il faut créer un répertoire qui possède comme préfixe le nom du thème parent puis le `-` comme séparateur suivit de child. Exemple twentyfifteen-child.
 
 ### 🏷️ **Le CSS**
 

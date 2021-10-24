@@ -17,7 +17,7 @@ Il existe quatre typologies de mises à jour et de mises à jour automatiques Wo
 * Mises à jour des thèmes
 * Mises à jour des fichiers de traduction
 
-Quand vous lancer une mise à jour, les visiteurs naviguants auront un message de site en maintenance. Il est conseillé de mettre une par une les mise à jour en exécution.
+Quand vous lancer une mise à jour, les visiteurs navigants auront un message de site en maintenance. Il est conseillé de mettre une par une les mise à jour en exécution.
 
 Dans le fichier wp-config.php vous pouvez demander l'activation des updates automatiques.
 
@@ -29,9 +29,9 @@ ___
 
 ## 📑 Protection
 
-Afin de protéger votre base de données contre des failles de sécurité et nottament les injections SQL il est une bonne pratique que votre structure de données ne soit pas prédictible.
+Afin de protéger votre base de données contre des failles de sécurité et notamment les injections SQL il est une bonne pratique que votre structure de données ne soit pas prédictible.
 
-* Il faut choisir un préfix de table non prédictible.
+* Il faut choisir un préfixe de table non prédictible.
 
 ![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/prefix.png)
 
@@ -49,13 +49,13 @@ ___
 
 ## 📑 Htaccess
 
-Le fichier htaccess est un fichier caché contenant les directives du server apache. Il est possible d'interdire l'accès à certains fichiers ou encore procéder à des réécritures d'url.
+Le fichier htaccess est un fichier caché contenant les directives du serveur apache. Il est possible d'interdire l'accès à certains fichiers ou encore procéder à des réécritures d'url.
 
-> Attention, un autre server qu'apache ne sera pas sensible à ces directives.
+> Attention, un autre serveur qu'apache ne sera pas sensible à ces directives.
 
 [Guide htaccess](https://wpmarmite.com/htaccess-wordpress)
 
-Prenons un exemple utile, empecher un utilisateur d'accéder à un fichier spécifique.
+Prenons un exemple utile, empêcher un utilisateur d'accéder à un fichier spécifique.
 
 ```apache
 <files wp-config.php>

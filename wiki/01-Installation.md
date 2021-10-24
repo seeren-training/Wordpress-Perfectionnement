@@ -53,7 +53,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Installez les prérequis des l'environnements HTML/CSS/Javascriot/PHP
+Installez les prérequis des l’environnement HTML/CSS/Javascriot/PHP
 
 ___
 
@@ -69,7 +69,7 @@ Pour vérifier que composer est bien installé, vérifiez sa présence via la co
 composer
 ```
 
-Pour créer un projet il suffit de demander la création via le dépot officiel de wordpress.
+Pour créer un projet il suffit de demander la création via le dépôt officiel de wordpress.
 
 [Wordpress Packagist](https://packagist.org/packages/johnpbloch/wordpress)
 
@@ -91,7 +91,7 @@ Vous pouvez alors simplement exécuter votre projet depuis votre terminal.
 php -S localhost:8000 -t name-to-customize/wordpress
 ```
 
-Vous pouvez également déplacer le dossier généré dans le dossier `www` ou `htdocs` de votre server web local et le démarrer.
+Vous pouvez également déplacer le dossier généré dans le dossier `www` ou `htdocs` de votre serveur web local et le démarrer.
 
 ___
 

@@ -9,7 +9,7 @@ ___
 
 ## 📑 HTML, CSS et hiérarchie
 
-Lorce que vous choisiez un thème, vous décider d'utiliser des fichiers qui sont situés dans **wp-content/themes/**.
+Lorsque vous choisissez un thème, vous décider d'utiliser des fichiers qui sont situés dans **wp-content/themes/**.
 
 ![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/theme.png)
 
@@ -25,7 +25,7 @@ Les fichiers html possèdent l'extension `.php` qui permettent leur dynamisme. L
 </h1>
 ```
 
- Il faut considérer que PHP calcul le contenu de vos balises grace à son vocabulaire et vous avez la posssibilitée d'éditer l'HTML des templates. Concernant le PHP, soyez sur de ce que vous faites!
+ Il faut considérer que PHP calcul le contenu de vos balises grace à son vocabulaire et vous avez la possibilité d'éditer l'HTML des templates. Concernant le PHP, soyez sur de ce que vous faites!
 
 ### 🏷️ **CSS**
 
@@ -52,7 +52,7 @@ Commentaires généraux / Information de licences si applicable.
 
 ### SCSS
 
-Il est possible que le thème possède des fichiers `.scss`. Le scss est un langage de type préprocessor permettant de dynamiser le CSS. Vous ne pouvez pas les relier à votre thème et ils sont utilisés pour générer le fichier `.css` tout en permettant de travailler dans de multiples fichiers à la syntaxe plus puissante. Pour effectuer cette opération il faut les outils adéquates comme `webpack`, `node-sass`, `compass` ou un plugin de votre `ide`.
+Il est possible que le thème possède des fichiers `.scss`. Le scss est un langage de type préprocesseur permettant de dynamiser le CSS. Vous ne pouvez pas les relier à votre thème et ils sont utilisés pour générer le fichier `.css` tout en permettant de travailler dans de multiples fichiers à la syntaxe plus puissante. Pour effectuer cette opération il faut les outils adéquates comme `webpack`, `node-sass`, `compass` ou un plugin de votre `ide`.
 
 ### 🏷️ **Hiérarchie**
 
@@ -108,7 +108,7 @@ L'on se rend compte qu'il y a des expressions qui utilisent des fichiers externe
 
 ### 🏷️ **Affichage**
 
-Il est possible que les différentes parties soient incluses en utilisant d'autres fonctions disponbiles et q'uil soit difficile d'identifier le fichier contenant l'HTML du header.
+Il est possible que les différentes parties soient incluses en utilisant d'autres fonctions disponibles et qu’il soit difficile d'identifier le fichier contenant l'HTML du header.
 
 La fonction `get_header` est responsable de charger le fichier `header.php`
 

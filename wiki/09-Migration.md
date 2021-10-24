@@ -15,7 +15,7 @@ Vous travaillez en local pour conserver l'intégrité et le bon fonctionnement d
 
 #### **Export**
 
-Si c'est la première mmigration je vous conseil de faire un export en ligne de commande ou avec l'outil de votre choix.
+Si c'est la première migration je vous conseil de faire un export en ligne de commande ou avec l'outil de votre choix.
 
 ```bash
 mysqldump -u root my_db_name > my_db_name.sql
@@ -37,11 +37,11 @@ Chez un hébergeur, créez une base de données et souvenez vous des info suivan
 * Mot de passe
 * Host
 
-Vous n'avez plus qu'à importer le fichier généré précédement.
+Vous n'avez plus qu'à importer le fichier généré précédemment.
 
 Dernière étape de la database, modifier les URLs. Il vous faut effectuer une opération manuelle de modification ou exécuter du SQL permettant de modifier le contenu de vos tables.
 
-La série de requête suivante doit être personnalsiée et exécutée dans l'onglet SQL de votre hébergeur.
+La série de requête suivante doit être personnalisée et exécutée dans l'onglet SQL de votre hébergeur.
 
 ```sql
 # Site
@@ -76,7 +76,7 @@ Tout ceci concernait la première fois que vous migirez votre projet. Pour les p
 
 * Faites une copie de votre projet.
 
-Nous allons modifier le fichier` wp-config.php` du projet copié pour qu'il corresponde aux attendus de notre server distant. Faites correspondre les informations de connection à la base de données créée précédement.
+Nous allons modifier le fichier` wp-config.php` du projet copié pour qu'il corresponde aux attendus de notre serveur distant. Faites correspondre les informations de connexion à la base de données créée précédemment.
 
 ```php
 define( 'DB_NAME', 'my_db_name' );
@@ -99,7 +99,7 @@ define( 'WP_DEBUG', false );
 
 #### **Import**
 
-Les fichiers sont prêts nous pouvons les transférer. Un client `FTP` peut être utilisé pour tranférer vos fichiers.
+Les fichiers sont prêts nous pouvons les transférer. Un client `FTP` peut être utilisé pour transférer vos fichiers.
 
 [Filezilla](https://filezilla-project.org/download.php?type=client)
 
@@ -115,4 +115,4 @@ ___
 
 ## 📑 Distant
 
-Si un site à été créé chez un hébergeur en premier, vous devez faire l'opération inverse. A savoir exporter la database et fichiers puis en locale importer la database, récupérer les fichiers. Pensez à modifier le ficheir wp-config.php, à mettre à jour les URLs de la database et le site repasse en mode développement.
+Si un site à été créé chez un hébergeur en premier, vous devez faire l'opération inverse. A savoir exporter la database et fichiers puis en locale importer la database, récupérer les fichiers. Pensez à modifier le fichier wp-config.php, à mettre à jour les URLs de la database et le site repasse en mode développement.

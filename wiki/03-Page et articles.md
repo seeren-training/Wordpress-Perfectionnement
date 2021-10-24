@@ -22,7 +22,7 @@ Les modèles de page sont utilisés pour modifier l'apparence d'une page.
 
 ### 🏷️ **Déclaration**
 
-Il faut créer un fichier qui ne pose pas de probème avec le nommage utilisé par wordpress et sa hierarchie, en utilisant des _ à la place des - par exemple.
+Il faut créer un fichier qui ne pose pas de probème avec le nommage utilisé par wordpress et sa hiérarchie, en utilisant des _ à la place des - par exemple.
 
 * template_portfolio.php
 
@@ -38,7 +38,7 @@ Le fichier doit comporter un commentaire permettant à wordpress de le détecter
 
 ### 🏷️ **Affichage**
 
-Suite à cette déclaration nous pouvez observer sur lors de l'édition d'une page que nous pouvons selectionner un modèle spécifique, celui créé précédement.
+Suite à cette déclaration nous pouvez observer sur lors de l'édition d'une page que nous pouvons selectionner un modèle spécifique, celui créé précédemment.
 
 ![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/model.png)
 

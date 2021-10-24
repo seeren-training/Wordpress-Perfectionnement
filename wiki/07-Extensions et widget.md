@@ -43,7 +43,7 @@ Les actions sont l'un des deux types de Hooks. Ils fournissent un moyen d'exécu
 
 [List des actions](https://codex.wordpress.org/Plugin_API/Action_Reference)
 
-Nous avons déjà enregistré des actions pour par exmple ajouter un type de post personnalisé. Nous avons utilisé la fonction `add_action`.
+Nous avons déjà enregistré des actions pour par exemple ajouter un type de post personnalisé. Nous avons utilisé la fonction `add_action`.
 
 ### 🏷️ **Arguments**
 
@@ -99,7 +99,7 @@ Les widgets ont été conçus à l'origine pour fournir un moyen simple et facil
 
 ### 🏷️ **Afficher**
 
-Vous pouvez demander l'affichage unitiare de chaque widget avec la fonction `the_widget`.
+Vous pouvez demander l'affichage unitaire de chaque widget avec la fonction `the_widget`.
 
 ```php
 <?php the_widget('WP_Widget_Categories') ?>

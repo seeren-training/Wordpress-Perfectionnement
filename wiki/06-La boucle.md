@@ -9,7 +9,7 @@ ___
 
 ## 📑 Template tags
 
-A l'intérieur d'un fichier qui afficha un post, article ou autre type de données vous pouvez utiliser des onfctions pour récupérer ses différentes inforamtions. Ce sont les template tags.
+A l'intérieur d'un fichier qui afficha un post, article ou autre type de données vous pouvez utiliser des fonctions pour récupérer ses différentes informations. Ce sont les template tags.
 
 ![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/wordpress-loop.jpg)
 
@@ -17,7 +17,7 @@ A l'intérieur d'un fichier qui afficha un post, article ou autre type de donné
 
 > L'identification des fonctions par catégorie permet de reprendre la main sur le contenu affiché par le thème.
 
-Ces fonctions doivent être étudiées pour les éxécuter en respectant leur signature, à savoir la liste des arguments attendus et en analysant la veleur deretour ou le comportement de la fonction.
+Ces fonctions doivent être étudiées pour les exécuter en respectant leur signature, à savoir la liste des arguments attendus et en analysant la valeur de retour ou le comportement de la fonction.
 
 Par exemple `the_title` affiche le titre et ne s'utilise pas avec echo.
 
@@ -41,7 +41,7 @@ Les Marqueurs Conditionnels peuvent être utilisés dans vos Thèmes pour décid
 
 [Conditionnal tags](https://codex.wordpress.org/fr:Marqueurs_conditionnels)
 
-Ils sont à utiliser avec la structure conditionelle du langage php.
+Ils sont à utiliser avec la structure conditionnelle du langage php.
 
 ```php
 <?php 
@@ -98,7 +98,7 @@ ___
 
 ### 🏷️ **Déclaration**
 
-Certains objects wordpress comme `WP_Query` permettent de formuler des requêtes personnalisées. Il suffit de se documenter pou renseigner les paramètres souhaités.
+Certains objets wordpress comme `WP_Query` permettent de formuler des requêtes personnalisées. Il suffit de se documenter pou renseigner les paramètres souhaités.
 
 [Wp Query](https://developer.wordpress.org/reference/classes/wp_query/#parameters)
 
@@ -110,7 +110,7 @@ $query = new WP_Query([
 
 ### 🏷️ **Affichage**
 
-Pour exploiter cetter requête personnalisée il suffit de légèrement modifier la boucle par défaut.
+Pour exploiter cette requête personnalisée il suffit de légèrement modifier la boucle par défaut.
 
 ```php
 while ($query->have_posts() ) :
