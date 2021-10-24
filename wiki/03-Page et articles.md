@@ -10,7 +10,7 @@ ___
 
 > Les modèles de page sont un type spécifique de fichier modèle qui peut être appliqué à une page spécifique ou à des groupes de pages.
 
-![image](./resources/page-article.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/page-article.png)
 
 Les modèles de page sont utilisés pour modifier l'apparence d'une page.
 
@@ -40,7 +40,7 @@ Le fichier doit comporter un commentaire permettant à wordpress de le détecter
 
 Suite à cette déclaration nous pouvez observer sur lors de l'édition d'une page que nous pouvons selectionner un modèle spécifique, celui créé précédement.
 
-![image](./resources/model.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/model.png)
 
 Il reste alors à utiliser les différentes fonctions de wordpress pour construire la page.
 
@@ -86,7 +86,7 @@ Par défaut, WordPress affiche une liste de publications sur la page d'accueil d
 
 > Une page d'accueil statique est une page spécifique utilisée comme page d'accueil du site.
 
-![image](./resources/static.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/static.png)
 
 Vous pouvez choisir une page ou un article et allez actionner le fichier `page.php` ou `archive.php`.
 

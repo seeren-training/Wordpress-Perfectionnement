@@ -33,7 +33,7 @@ Afin de protéger votre base de données contre des failles de sécurité et not
 
 * Il faut choisir un préfix de table non prédictible.
 
-![image](./resources/prefix.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/prefix.png)
 
 ___
 

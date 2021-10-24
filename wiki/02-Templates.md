@@ -11,7 +11,7 @@ ___
 
 Lorce que vous choisiez un thème, vous décider d'utiliser des fichiers qui sont situés dans **wp-content/themes/**.
 
-![image](./resources/theme.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/theme.png)
 
 Chaque thème possède un dossier qui porte son nom, décrivons son contenu.
 
@@ -62,7 +62,7 @@ En premier lieu, WordPress compare chaque URL aux différents types de requête 
 
 > Les fichiers modèles sont alors sélectionnés — et le contenu de la page est généré — selon la hiérarchie des modèles de WordPress présentée ici, en fonction de leur présence ou non dans le thème WordPress utilisé. 
 
-![image](./resources/Template_Hierarchy.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/Template_Hierarchy.png)
 
 À l'exception du fichier modèle de base `index.php` qui doit être présent dans tout thème, les développeurs de thème sont libres de choisir s'ils veulent ou non implémenter ou non tel ou tel fichier modèle. Si WordPress ne trouve pas le premier fichier attendu pour le type de page dans la liste, il passe au fichier suivant de la hiérarchie. En dernier lieu, si aucun fichier n'a été trouvé, c'est le fichier index.php qui sera utilisé. 
 
@@ -80,7 +80,7 @@ ___
 
 Si votre thème le permet, vous pouvez personnaliser l'en-tête de votre site en mettant une image en ligne, et en la configurant.
 
-![image](./resources/header.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/header.png)
 
 ### 🏷️ **Déclaration**
 
@@ -137,7 +137,7 @@ ___
 La sidebar est la zone permettant l'affichage des widgets. 
 
 
-![image](./resources/sidebar.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/sidebar.png)
 
 Un thème peut posséder plusieurs sidebar. Pour ajouter une sidebar il faut l'enregistrer en PHP afin de pouvoir demander son affichage avec une fonction spécifique.
 

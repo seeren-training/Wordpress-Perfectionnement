@@ -9,7 +9,7 @@ ___
 
 > Un thème WordPress enfant, c’est un thème qui va hériter des fonctionnalités, du design et de la mise en page d’un thème installé sur un site (qui devient le thème parent) et permettre de le personnaliser en profondeur.
 
-![image](./resources/child-theme.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/child-theme.jpg)
 
 Il existe quelques raisons qui pourraient vous donner envie d'utiliser un thème enfant :
 * Si vous modifiez un thème existant et qu'il est mis à jour, vos modifications seront perdues.

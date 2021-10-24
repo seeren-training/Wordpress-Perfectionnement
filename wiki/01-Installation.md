@@ -9,7 +9,7 @@ ___
 
 `Wordpress` est un `CMS` utilisant le langage `PHP`. De ce fait les prérequis correspondent à l'environnement de ce langage.
 
-![image](./resources/prerequist.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/prerequist.jpg)
 
 ### 🏷️ **PHP**
 
@@ -61,7 +61,7 @@ ___
 
 `Composer` peut être utile pour initialiser un projet wordpress via un terminal.
 
-![image](./resources/composer.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/composer.png)
 
 Pour vérifier que composer est bien installé, vérifiez sa présence via la commande suivante.
 

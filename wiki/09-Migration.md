@@ -66,7 +66,7 @@ SET meta_value = REPLACE (meta_value, 'http://localhost:8000','http://www.nouvea
 Tout ceci concernait la première fois que vous migirez votre projet. Pour les prochaines fois vous pourez utiliser l'outil d'import/export de wordpress concernant vos données.
 
 
-![image](./resources/wp-export.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/wp-export.png)
 
 ### 🏷️ **Files**
 

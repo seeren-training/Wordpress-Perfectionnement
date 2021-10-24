@@ -11,7 +11,7 @@ ___
 
 A l'intérieur d'un fichier qui afficha un post, article ou autre type de données vous pouvez utiliser des onfctions pour récupérer ses différentes inforamtions. Ce sont les template tags.
 
-![image](./resources/wordpress-loop.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/wordpress-loop.jpg)
 
 [Template tags](https://codex.wordpress.org/Template_Tags)
 

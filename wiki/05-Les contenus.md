@@ -12,7 +12,7 @@ ___
 
 > Par défaut il existe deux types de post, article et page.
 
-![image](./resources/post-type.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/post-type.jpg)
 
 Il est possible de créer des types de post personnalisés. En utilisant les types de publication personnalisés, vous pouvez enregistrer votre propre type de publication. Une fois qu'un type de publication personnalisé est enregistré, il obtient un nouvel écran administratif de niveau supérieur qui peut être utilisé pour gérer et créer des publications de ce type.
 
@@ -68,7 +68,7 @@ Par défaut, WordPress inclut deux types de taxonomies ouvertes au public :
 * Catégories
 * Étiquettes
 
-![image](./resources/category.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/category.png)
 
 ### 🏷️ **Déclaration**
 
@@ -106,7 +106,7 @@ function create_color_taxonomies()
 
 Le second argument de `register_taxonomy` correspond à un tableau des types auxquels seront appliqués cette taxonomie.
 
-![image](./resources/taxonomy.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/taxonomy.png)
 
 ### 🏷️ **Affichage**
 

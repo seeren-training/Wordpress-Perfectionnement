@@ -11,7 +11,7 @@ ___
 
 Les Hooks sont des fonctions déclarées par le développeur de thème ou d’extension qui permettent d’interagir avec le coeur de WordPress, d’autres thèmes ou extensions et lancés à des moments clés de leur exécution. 
 
-![image](./resources/hook.png)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/hook.png)
 
 Par exemple, on peut intercepter le moment où WordPress enregistre un article dans la base, afin d’y apporter des modifications. Il existe 2 types de Hooks : les `actions`, un moment clé pour lancer ses propres fonctions, et les `filtres`, pour intercepter une valeur à un moment donné et la modifier.
 
@@ -92,7 +92,7 @@ ___
 
 Les widgets WordPress ajoutent du contenu et des fonctionnalités à vos barres latérales. Les exemples sont les widgets par défaut fournis avec WordPress ; pour les catégories, le nuage de tags, la recherche, etc. Les plugins ajoutent souvent leurs propres widgets.
 
-![image](./resources/widget.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Wordpress-Perfectionnement/master/wiki/resources/widget.jpg)
 
 Les widgets ont été conçus à l'origine pour fournir un moyen simple et facile à utiliser de donner à l'utilisateur le contrôle de la conception et de la structure du thème WordPress, qui est désormais disponible sur les thèmes WordPress correctement « widgetisés » pour inclure l'en-tête, le pied de page et ailleurs dans la conception et la structure de WordPress.
 
