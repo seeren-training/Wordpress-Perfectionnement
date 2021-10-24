@@ -51,6 +51,10 @@ Le fichier `style.css` est une obligation. Il doit posséder l'entête suivante:
 
 La ligne Template correspond au nom du répertoire du thème parent. Le thème parent dans notre exemple est le thème Twenty Fifteen, de sorte que le Template soit twentyfifteen. Vous pouvez travailler avec un thème différent, donc adapter en conséquence.
 
+### 🏷️ **La screenshot**
+
+Pour avoir une image d'aperçu pour votre thème vous devez avoir un fichier screenshot à la racine du répertoire du thème.
+
 ### 🏷️ **Le PHP**
 
 Le seul fichier requis pour un thème enfant est style.css, mais functions.php est nécessaire pour mettre en file d'attente correctement les styles (voir ci-dessous).
