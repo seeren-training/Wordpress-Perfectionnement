@@ -11,7 +11,7 @@ ___
 
 Les Hooks sont des fonctions déclarées par le développeur de thème ou d’extension qui permettent d’interagir avec le coeur de WordPress, d’autres thèmes ou extensions et lancés à des moments clés de leur exécution. 
 
-![image](./resources/wordpress-loop.jpg)
+![image](./resources/hook.png)
 
 Par exemple, on peut intercepter le moment où WordPress enregistre un article dans la base, afin d’y apporter des modifications. Il existe 2 types de Hooks : les `actions`, un moment clé pour lancer ses propres fonctions, et les `filtres`, pour intercepter une valeur à un moment donné et la modifier.
 

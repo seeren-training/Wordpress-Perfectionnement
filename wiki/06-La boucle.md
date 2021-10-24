@@ -11,6 +11,8 @@ ___
 
 A l'intérieur d'un fichier qui afficha un post, article ou autre type de données vous pouvez utiliser des onfctions pour récupérer ses différentes inforamtions. Ce sont les template tags.
 
+![image](./resources/wordpress-loop.jpg)
+
 [Template tags](https://codex.wordpress.org/Template_Tags)
 
 > L'identification des fonctions par catégorie permet de reprendre la main sur le contenu affiché par le thème.
@@ -102,7 +104,7 @@ Certains objects wordpress comme `WP_Query` permettent de formuler des requêtes
 
 ```php
 $query = new WP_Query([
-    'post_type' => 'product'
+    'post_type' => 'product',
 ]);
 ```
 
