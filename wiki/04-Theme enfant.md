@@ -2,6 +2,8 @@
 
 * 🔖 **Principe**
 * 🔖 **Les fichiers**
+* 🔖 **Support**
+* 🔖 **Personnalisation**
 
 ___
 
@@ -94,5 +96,85 @@ ___
 👨🏻‍💻 Manipulation
 
 Créez un thème enfant à partir du theme twenty twenty one
+
+___
+
+## 📑 Support
+
+Dans l'espace de personnalisation du thème toutes les sections ne sont peut être pas présente, comme la prise en charge du logo ou l'image de fond.
+
+Pour obtenir que ces fonctionnalités soient supporté il faut utiliser une fonction
+
+[Theme Support](https://developer.wordpress.org/reference/functions/add_theme_support/)
+
+```php
+function themename_custom_logo_setup() {
+    $defaults = array(
+        'height'               => 100,
+        'width'                => 400,
+        'flex-height'          => true,
+        'flex-width'           => true,
+        'header-text'          => array( 'site-title', 'site-description' ),
+        'unlink-homepage-logo' => true, 
+    );
+ 
+    add_theme_support( 'custom-logo', $defaults );
+}
+ 
+add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
+```
+
+[Custom Logo](https://developer.wordpress.org/themes/functionality/custom-logo/)
+
+[Custom Headers](https://codex.wordpress.org/Custom_Headers)
+
+[Custom Backgrounds](https://codex.wordpress.org/Custom_Backgrounds)
+
+___
+
+## 📑 Personnalisation
+
+Dans la customisation du thème il est possible de rajouter des champs ou des sections.
+
+[Theme customization](https://codex.wordpress.org/Theme_Customization_API)
+
+```php
+add_action('customize_register', 'some_function');
+
+function some_function($wp_customize)
+{
+    $wp_customize->add_setting(
+        'header_bg_color',
+        [
+            'default' => '#FFFFFF'
+        ]
+    );
+    $wp_customize->add_control(
+        new WP_Customize_Color_Control(
+            $wp_customize,
+            'header_custom_bg_color',
+            array(
+                'label'      => 'Header Color',
+                'section'    => 'colors', 
+                'settings'   => 'header_bg_color'
+            )
+        )
+    );
+}
+```
+
+Cet exemple montre comment ajouter une couleur dans l'identité du site. Il est possible de récupérer les différentes valeurs ensuite.
+
+[get_theme_mod](https://developer.wordpress.org/reference/functions/get_theme_mod/)
+
+```php
+get_theme_mod( 'header_bg_color' )
+```
+
+___
+
+👨🏻‍💻 Manipulation
+
+Permettez de personnaliser la couleur de l'entête et du footer avec un champs supplémentaire.
 
 ___
