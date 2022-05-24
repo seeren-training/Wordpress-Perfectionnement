@@ -1,0 +1,15 @@
+.site-header .widget {
+    padding-left: 1em;
+    margin-left: auto;
+}
+@media screen and (max-width: 960px) {
+    .site-header .widget {
+        padding-left: 0em;
+        width: 100%;
+    }
+    .site-header .widget .wp-block-search {
+        padding-left: 0em;
+        width: 100%;
+        max-width: unset !important;
+    }
+}

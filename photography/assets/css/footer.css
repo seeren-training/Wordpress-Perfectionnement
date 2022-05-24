@@ -1,0 +1,9 @@
+.site-footer {
+    margin-left: unset !important;
+    margin-right: unset !important;
+    max-width: unset !important;
+    padding:  2em;
+}
+.site-footer .site-info {
+    border: unset !important;
+}
