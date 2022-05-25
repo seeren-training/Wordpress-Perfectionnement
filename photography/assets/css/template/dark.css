@@ -1,0 +1,7 @@
+.template-dark {
+    background-color: black;
+    color: white !important;
+}
+.template-dark .entry-title {
+    color: white !important;
+}

@@ -1,3 +1,7 @@
+@import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 @import './footer.css';
 @import './header.css';
+@import './home.css';
+@import './template/dark.css';
 @import './widget.css';

@@ -1,0 +1,8 @@
+.home .container {
+    max-width: unset !important;
+}
+
+.cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
